@@ -1,0 +1,122 @@
+
+body{
+    background-color: black;
+    height: 100%;
+    margin: 0px
+    ;
+}
+
+main{
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: #9C9C9C;
+    margin: 0px;
+}
+.usuarios{
+
+display: flex;
+justify-content: space-around;
+
+
+}
+.usuarios .usuarios-lista{
+    list-style: none;
+    align-items: center;
+    height: 300px;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0px;
+    width: 700px;
+    padding: 0px;
+}
+.usuarios .usuarios-lista li{
+    width: 160px;
+    height: 160px;
+    background-color: #1E1E20;
+    border: 2px solid transparent;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+li, img{
+    border-radius: 10px;
+    
+   
+}
+
+.add-perfil{
+ display: flex;
+ justify-content: center;
+ margin: 0px;
+ width: 100%;
+ height: 100%;
+}
+
+
+
+
+.botaoperfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+button{
+    width: 206px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    transition: .5s;
+}
+
+
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+
+}
+
+.usuarios .usuarios-lista li:hover{
+    border: 2px solid white;
+    transition: .5s;
+    
+    font-weight: 900;
+}
+
+img:hover{
+    color: white;
+
+}
+
